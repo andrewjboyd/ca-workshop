@@ -1,4 +1,5 @@
-﻿using CaWorkshop.Infrastructure.Identity;
+﻿using CaWorkshop.Application.Common.Interfaces;
+using CaWorkshop.Infrastructure.Identity;
 using CaWorkshop.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,9 @@ namespace CaWorkshop.Infrastructure
 
             services.AddAuthentication()
                 .AddIdentityServerJwt();
+
+            services.AddScoped<IApplicationDbContext>(provider =>
+                provider.GetService<ApplicationDbContext>());
 
             return services;
         }
