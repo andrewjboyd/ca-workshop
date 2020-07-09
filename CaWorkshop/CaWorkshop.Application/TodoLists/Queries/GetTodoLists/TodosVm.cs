@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace CaWorkshop.Application.TodoLists.Queries.GetTodoLists
 {
+    // Vm = View Model
     public class TodosVm
     {
         public List<PriorityLevelDto> PriorityLevels
