@@ -1,5 +1,7 @@
 using CaWorkshop.Application;
+using CaWorkshop.Application.Common.Interfaces;
 using CaWorkshop.Infrastructure;
+using CaWorkshop.WebUI.Services;
 using CleanArchitecture.WebUI.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,6 +25,9 @@ namespace CaWorkshop.WebUI
         {
             services.AddInfrastructure(Configuration);
             services.AddApplication(Configuration);
+
+            services.AddHttpContextAccessor();
+            services.AddScoped<ICurrentUserService, CurrentUserService>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
