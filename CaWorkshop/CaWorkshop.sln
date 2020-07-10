@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Application", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Infrastructure", "CaWorkshop.Infrastructure\CaWorkshop.Infrastructure.csproj", "{AEC0914C-E343-42F9-A89B-A7973D306D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Application.UnitTests", "CaWorkshop.Application.UnitTests\CaWorkshop.Application.UnitTests.csproj", "{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{AEC0914C-E343-42F9-A89B-A7973D306D5C}.Release|x64.Build.0 = Release|Any CPU
 		{AEC0914C-E343-42F9-A89B-A7973D306D5C}.Release|x86.ActiveCfg = Release|Any CPU
 		{AEC0914C-E343-42F9-A89B-A7973D306D5C}.Release|x86.Build.0 = Release|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Debug|x64.Build.0 = Debug|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Debug|x86.Build.0 = Debug|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Release|x64.ActiveCfg = Release|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Release|x64.Build.0 = Release|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Release|x86.ActiveCfg = Release|Any CPU
+		{E20BF9C7-77D1-46EF-BCE9-0A895AB83503}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
